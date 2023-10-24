@@ -1,6 +1,7 @@
 class Endpoints:
     AUTH = '/auth/login'
-    PRODUCTS_ADD = '/products/add'
-    PRODUCTS_1 = '/products/1'
-    PRODUCTS_SEARCH = '/products/search'
-    PRODUCTS_CATEGORIES = '/products/categories'
+    POSTS = '/posts'
+    POSTS_SEARCH = '/posts/search'
+    POSTS_USERS = '/user'
+    POSTS_COMMENTS = lambda posts_id: f'/post/{posts_id}/comments'
+    POSTS_ADD = '/posts/add'

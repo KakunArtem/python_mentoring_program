@@ -1,2 +1,0 @@
-class ProductRequest:
-    pass

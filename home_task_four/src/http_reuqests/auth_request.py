@@ -4,7 +4,7 @@ from home_task_four.src.clients import RequestClient, config
 from home_task_four.src.http_reuqests.endpoints_enum import Endpoints
 
 
-class AuthEndpoint:
+class AuthRequest:
     def __init__(self):
         self.client = RequestClient()
         self.base_url = config.BASE_URL

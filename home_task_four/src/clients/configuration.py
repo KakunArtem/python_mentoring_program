@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from dotenv import load_dotenv, find_dotenv
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 
 def _build_path(file_name):

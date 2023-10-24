@@ -1,3 +1,3 @@
-from .auth_endpoint import AuthEndpoint
+from .auth_request import AuthRequest
 from .endpoints_enum import Endpoints
-from .products_request import ProductRequest
+from .posts_request import PostsRequest
